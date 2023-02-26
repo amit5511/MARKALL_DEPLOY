@@ -1,12 +1,9 @@
 const app= require('./app');
-const path=require('path');
 
 
 
-//configure dot env
-const dotenv = require('dotenv')
-// dotenv.config({ path: "backend/config/.env" });
-dotenv.config({ path: path.resolve(__dirname,'./configure/.env') })
+
+
 
 
 //server
